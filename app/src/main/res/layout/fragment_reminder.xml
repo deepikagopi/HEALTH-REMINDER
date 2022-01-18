@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
+    android:background="@color/new_black"
     android:orientation="vertical"
     app:cardElevation="2dp"
     app:cardUseCompatPadding="true">
@@ -17,19 +18,21 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/colorDarkGreen"
             android:orientation="vertical"
-            android:paddingBottom="@dimen/sixteen_dp"
             android:paddingLeft="@dimen/sixteen_dp"
+            android:paddingTop="@dimen/sixteen_dp"
             android:paddingRight="@dimen/sixteen_dp"
-            android:paddingTop="@dimen/sixteen_dp">
+            android:paddingBottom="@dimen/sixteen_dp">
 
-            <com.gautam.medicinetime.views.RobotoBoldTextView
+            <com.example.healthreminder.views.RobotoBoldTextView
                 android:id="@+id/tv_med_time"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                tools:text="23:20"
-                android:textColor="#4d4d4d"
-                android:textSize="40sp" />
+                android:background="@color/colorDarkGreen"
+                android:textColor="@android:color/white"
+                android:textSize="40sp"
+                tools:text="23:20" />
         </LinearLayout>
 
         <View
@@ -40,45 +43,50 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/colorDarkGreen"
             android:gravity="center_vertical"
             android:orientation="horizontal"
-            android:paddingBottom="@dimen/eight_dp"
             android:paddingLeft="@dimen/sixteen_dp"
+            android:paddingTop="@dimen/eight_dp"
             android:paddingRight="@dimen/sixteen_dp"
-            android:paddingTop="@dimen/eight_dp">
+            android:paddingBottom="@dimen/eight_dp">
 
             <ImageView
                 android:id="@+id/iv_icon"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
                 android:layout_centerVertical="true"
+                android:background="@color/white"
                 android:contentDescription="@null"
-                android:src="@drawable/icon_blister" />
+                app:srcCompat="@drawable/home_ion" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
-                android:layout_toEndOf="@+id/iv_icon"
-                android:layout_toLeftOf="@+id/linearLayout"
-                android:layout_toRightOf="@+id/iv_icon"
                 android:layout_toStartOf="@+id/linearLayout"
+                android:layout_toLeftOf="@+id/linearLayout"
+                android:layout_toEndOf="@+id/iv_icon"
+                android:layout_toRightOf="@+id/iv_icon"
                 android:orientation="vertical"
                 android:padding="4dp">
 
-                <com.gautam.medicinetime.views.RobotoBoldTextView
+                <com.example.healthreminder.views.RobotoBoldTextView
                     android:id="@+id/tv_medicine_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    tools:text="Paracetamol"
-                    android:textColor="#4d4d4d" />
+                    android:background="@color/colorDarkGreen"
+                    android:textColor="@android:color/white"
+                    tools:text="Paracetamol" />
 
-                <com.gautam.medicinetime.views.RobotoRegularTextView
+                <com.example.healthreminder.views.RobotoRegularTextView
                     android:id="@+id/tv_dose_details"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@color/colorDarkGreen"
+                    android:textColor="#FFFFFF"
                     tools:text="1.0 adhesive(s)" />
             </LinearLayout>
 
@@ -103,8 +111,8 @@
                     android:id="@+id/iv_take_med"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:layout_marginLeft="8dp"
                     android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
                     android:background="@drawable/background_take_alarm_button"
                     android:contentDescription="@null"
                     android:visibility="visible" />

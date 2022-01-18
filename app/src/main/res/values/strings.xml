@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Medicine Time</string>
-    <string name="title_medicine_name">Medicine Name</string>
-    <string name="hint_enter_med_name">Enter Medicine</string>
+    <string name="app_name">Health Reminder</string>
+    <string name="title_medicine_name">Add Subject</string>
+    <string name="hint_enter_med_name">Add Medicine and Diet</string>
     <string name="medicine_days">Medicine Days</string>
     <string name="title_treatment_deadline">Treatment deadline</string>
     <string name="title_continuous_use">Continuous use</string>
@@ -12,7 +12,7 @@
     <string name="loading_tasks_error">Error while loading medicineAlarms</string>
     <string name="successfully_saved_me_message">Medicine Added Successfully</string>
     <string name="successfully_deleted_message">Medicine deleted Successfully</string>
-    <string name="reminder_message">It\'s Time to take your medicine</string>
+    <string name="reminder_message">Your New Reminder!!</string>
     <string name="ignored">IGNORED</string>
     <string name="taken">TAKEN</string>
     <string name="all">ALL</string>

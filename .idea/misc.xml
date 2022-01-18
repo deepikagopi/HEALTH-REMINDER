@@ -1,11 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Deepika/Desktop/New folder/HEALTH REMINDER/app/src/main/res/layout/activity_splash_screen.xml" value="0.24456521739130435" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/drawable-v21/ic_add.xml" value="1.6" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/drawable-v21/ic_arrow_drop_down.xml" value="1.6" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/drawable-v21/ic_clear.xml" value="1.6" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/drawable-v21/ic_done.xml" value="1.6" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/drawable-v21/ic_filter_list.xml" value="1.6" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/drawable-v21/ic_statistics.xml" value="1.6" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/drawable/background_configure_alarm_button.xml" value="0.2703125" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/drawable/background_configure_medication.xml" value="0.2703125" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/drawable/background_day_view.xml" value="0.2703125" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/drawable/background_home.xml" value="0.2703125" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/drawable/background_status_medication.xml" value="0.2703125" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/drawable/background_take_alarm_button.xml" value="0.2703125" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/drawable/background_take_medication.xml" value="0.2703125" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/drawable/drawable_underline.xml" value="0.2703125" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/drawable/home_ion.xml" value="0.2703125" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/drawable/home_page.xml" value="0.2703125" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/drawable/ic_android_home_icon.xml" value="0.2703125" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/drawable/touch_feedback.xml" value="0.2703125" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/layout-land/layout.xml" value="0.21516754850088182" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/layout/activity_add_medicine.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/layout/activity_medicine.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/layout/activity_monthly_report.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/layout/activity_reminder_actvity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/layout/component_day_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/layout/fragment_add_medicine.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/layout/fragment_history.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/layout/fragment_medicine.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/layout/fragment_reminder.xml" value="0.25" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/layout/layout.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/layout/row_history.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/layout/row_medicine.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/menu/filter_history.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/menu/history_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Deepika/Desktop/New folder/Medicine Reminder Android App Project/app/src/main/res/menu/medicine_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
   <component name="NullableNotNullManager">
     <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
     <option name="myDefaultNotNull" value="androidx.annotation.NonNull" />
     <option name="myNullables">
       <value>
-        <list size="12">
+        <list size="15">
           <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
           <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
           <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
@@ -18,12 +61,15 @@
           <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableDecl" />
           <item index="10" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableType" />
           <item index="11" class="java.lang.String" itemvalue="com.android.annotations.Nullable" />
+          <item index="12" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.Nullable" />
+          <item index="13" class="java.lang.String" itemvalue="io.reactivex.annotations.Nullable" />
+          <item index="14" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.Nullable" />
         </list>
       </value>
     </option>
     <option name="myNotNulls">
       <value>
-        <list size="11">
+        <list size="15">
           <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
           <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
           <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
@@ -35,9 +81,13 @@
           <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullDecl" />
           <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullType" />
           <item index="10" class="java.lang.String" itemvalue="com.android.annotations.NonNull" />
+          <item index="11" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.NonNull" />
+          <item index="12" class="java.lang.String" itemvalue="io.reactivex.annotations.NonNull" />
+          <item index="13" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.NonNull" />
+          <item index="14" class="java.lang.String" itemvalue="lombok.NonNull" />
         </list>
       </value>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

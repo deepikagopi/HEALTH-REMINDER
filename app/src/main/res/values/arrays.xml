@@ -16,17 +16,13 @@
     </array>
 
     <array name="medications_shape_array">
-        <item>adhesive(s)</item>
+        <item>Select Category</item>
         <item>capsule(s)</item>
-        <item>cachet(s)</item>
         <item>cream(s)</item>
-        <item>dragee(s)</item>
-        <item>emulsion(s)</item>
         <item>pack(s)</item>
         <item>gel(s)</item>
         <item>drop(s)</item>
         <item>inhalation(s)</item>
-        <item>shot(s)</item>
         <item>lotion(s)</item>
         <item>measure(s)</item>
         <item>tablet(s)</item>
@@ -37,7 +33,6 @@
         <item>unit(s)</item>
         <item>solution(s)</item>
         <item>spray(s)</item>
-        <item>suspension(s)</item>
         <item>syrup(s)</item>
     </array>
     <array name="pill_cycle_formats">

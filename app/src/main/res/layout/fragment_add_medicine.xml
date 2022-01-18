@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
     android:orientation="vertical">
 
     <LinearLayout
@@ -15,6 +16,8 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:cardBackgroundColor="@color/colorDarkGreen"
             app:cardCornerRadius="@dimen/four_dp"
             app:cardElevation="@dimen/two_dp"
             app:cardUseCompatPadding="true"
@@ -25,18 +28,20 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <com.gautam.medicinetime.views.RobotoBoldTextView
+                <com.example.healthreminder.views.RobotoBoldTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@color/colorGreen"
                     android:text="@string/title_medicine_name"
-                    android:textColor="@color/colorPrimary"
+                    android:textColor="#FFFFFF"
                     android:textSize="@dimen/text_medium" />
 
                 <EditText
                     android:id="@+id/edit_med_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/hint_enter_med_name" />
+                    android:hint="@string/hint_enter_med_name"
+                    android:textColor="#FFFFFF" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -45,6 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/eight_dp"
+            app:cardBackgroundColor="@color/colorDarkGreen"
             app:cardCornerRadius="@dimen/four_dp"
             app:cardElevation="@dimen/two_dp"
             app:cardUseCompatPadding="true"
@@ -55,11 +61,11 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
-                <com.gautam.medicinetime.views.RobotoBoldTextView
+                <com.example.healthreminder.views.RobotoBoldTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/medicine_days"
-                    android:textColor="@color/colorPrimary"
+                    android:textColor="#FFFFFF"
                     android:textSize="@dimen/text_medium" />
 
 
@@ -67,7 +73,8 @@
                     android:id="@+id/every_day"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/every_day" />
+                    android:text="@string/every_day"
+                    android:textColor="#D5C1C1" />
 
                 <LinearLayout
                     android:id="@+id/checkbox_layout"
@@ -76,7 +83,7 @@
                     android:orientation="horizontal"
                     android:weightSum="7">
 
-                    <com.gautam.medicinetime.views.DayViewCheckBox
+                    <com.example.healthreminder.views.DayViewCheckBox
                         android:id="@+id/dv_sunday"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
@@ -85,9 +92,10 @@
                         android:background="@drawable/background_day_view"
                         android:button="@null"
                         android:gravity="center"
-                        android:text="S" />
+                        android:text="S"
+                        android:textColor="@color/white" />
 
-                    <com.gautam.medicinetime.views.DayViewCheckBox
+                    <com.example.healthreminder.views.DayViewCheckBox
                         android:id="@+id/dv_monday"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
@@ -99,7 +107,7 @@
                         android:text="M" />
 
 
-                    <com.gautam.medicinetime.views.DayViewCheckBox
+                    <com.example.healthreminder.views.DayViewCheckBox
                         android:id="@+id/dv_tuesday"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
@@ -110,7 +118,7 @@
                         android:gravity="center"
                         android:text="T" />
 
-                    <com.gautam.medicinetime.views.DayViewCheckBox
+                    <com.example.healthreminder.views.DayViewCheckBox
                         android:id="@+id/dv_wednesday"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
@@ -121,7 +129,7 @@
                         android:gravity="center"
                         android:text="W" />
 
-                    <com.gautam.medicinetime.views.DayViewCheckBox
+                    <com.example.healthreminder.views.DayViewCheckBox
                         android:id="@+id/dv_thursday"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
@@ -132,7 +140,7 @@
                         android:gravity="center"
                         android:text="T" />
 
-                    <com.gautam.medicinetime.views.DayViewCheckBox
+                    <com.example.healthreminder.views.DayViewCheckBox
                         android:id="@+id/dv_friday"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
@@ -144,7 +152,7 @@
                         android:text="F" />
 
 
-                    <com.gautam.medicinetime.views.DayViewCheckBox
+                    <com.example.healthreminder.views.DayViewCheckBox
                         android:id="@+id/dv_saturday"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
@@ -163,6 +171,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/eight_dp"
+            app:cardBackgroundColor="@color/colorDarkGreen"
             app:cardCornerRadius="@dimen/four_dp"
             app:cardElevation="@dimen/two_dp"
             app:cardUseCompatPadding="true"
@@ -173,11 +182,11 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
-                <com.gautam.medicinetime.views.RobotoBoldTextView
+                <com.example.healthreminder.views.RobotoBoldTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/title_reminder"
-                    android:textColor="@color/colorPrimary"
+                    android:textColor="@color/white"
                     android:textSize="@dimen/text_medium" />
 
                 <LinearLayout
@@ -185,7 +194,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <com.gautam.medicinetime.views.RobotoBoldTextView
+                    <com.example.healthreminder.views.RobotoBoldTextView
                         android:id="@+id/tv_medicine_time"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -193,32 +202,34 @@
                         android:background="@drawable/drawable_underline"
                         android:gravity="center"
                         android:padding="@dimen/four_dp"
+                        android:textColor="@color/white"
                         android:textSize="@dimen/text_large"
                         android:textStyle="bold"
-                        android:textColor="#4d4d4d"
                         tools:text="23:30" />
 
                     <EditText
                         android:id="@+id/tv_dose_quantity"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
                         android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
                         android:layout_weight="1"
                         android:background="@drawable/drawable_underline"
                         android:gravity="center"
+                        android:hint="Quantity"
                         android:padding="@dimen/four_dp"
-                        android:text="1.0" />
+                        android:textColor="@color/white" />
 
 
                     <androidx.appcompat.widget.AppCompatSpinner
                         android:id="@+id/spinner_dose_units"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
                         android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
                         android:layout_weight="1"
-                        android:entries="@array/medications_shape_array" />
+                        android:entries="@array/medications_shape_array"
+                        android:isScrollContainer="false" />
                 </LinearLayout>
             </LinearLayout>
         </androidx.cardview.widget.CardView>

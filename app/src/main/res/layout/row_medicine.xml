@@ -17,68 +17,74 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/colorDarkGreen"
             android:orientation="vertical"
-            android:paddingBottom="@dimen/sixteen_dp"
             android:paddingLeft="@dimen/sixteen_dp"
+            android:paddingTop="@dimen/sixteen_dp"
             android:paddingRight="@dimen/sixteen_dp"
-            android:paddingTop="@dimen/sixteen_dp">
+            android:paddingBottom="@dimen/sixteen_dp">
 
-            <com.gautam.medicinetime.views.RobotoBoldTextView
+            <com.example.healthreminder.views.RobotoBoldTextView
                 android:id="@+id/tv_med_time"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                tools:text="23:20"
-                android:textColor="#4d4d4d"
-                android:textSize="30sp" />
+                android:background="@color/colorDarkGreen"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                tools:text="23:20" />
         </LinearLayout>
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#E0E0E0" />
+            android:background="@color/colorDarkGreen" />
 
         <RelativeLayout
+            android:id="@+id/card"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/colorDarkGreen"
             android:gravity="center_vertical"
             android:orientation="horizontal"
-            android:paddingBottom="@dimen/eight_dp"
             android:paddingLeft="@dimen/sixteen_dp"
+            android:paddingTop="@dimen/eight_dp"
             android:paddingRight="@dimen/sixteen_dp"
-            android:paddingTop="@dimen/eight_dp">
+            android:paddingBottom="@dimen/eight_dp">
 
             <ImageView
                 android:id="@+id/iv_icon"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
                 android:layout_centerVertical="true"
+                android:background="@color/white"
                 android:contentDescription="@null"
-                android:src="@drawable/icon_blister" />
+                android:src="@drawable/home_ion" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
-                android:layout_toEndOf="@+id/iv_icon"
-                android:layout_toLeftOf="@+id/iv_medicine_action"
-                android:layout_toRightOf="@+id/iv_icon"
                 android:layout_toStartOf="@+id/iv_medicine_action"
+                android:layout_toLeftOf="@+id/iv_medicine_action"
+                android:layout_toEndOf="@+id/iv_icon"
+                android:layout_toRightOf="@+id/iv_icon"
                 android:orientation="vertical"
                 android:padding="4dp">
 
-                <com.gautam.medicinetime.views.RobotoBoldTextView
+                <com.example.healthreminder.views.RobotoBoldTextView
                     android:id="@+id/tv_medicine_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="#4d4d4d"
+                    android:textColor="@color/white"
                     tools:text="Paracetamol" />
 
-                <com.gautam.medicinetime.views.RobotoRegularTextView
+                <com.example.healthreminder.views.RobotoRegularTextView
                     android:id="@+id/tv_dose_details"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/white"
                     tools:text="1.0 adhesive(s)" />
             </LinearLayout>
 
@@ -90,8 +96,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
                 android:contentDescription="@null"
-                android:visibility="gone"
-                android:src="@drawable/image_reminder_taken" />
+                android:src="@drawable/image_reminder_taken"
+                android:visibility="gone" />
 
             <ImageView
                 android:id="@+id/iv_alarm_delete"
@@ -101,8 +107,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
                 android:contentDescription="@null"
-                android:visibility="gone"
-                android:src="@drawable/image_reminder_not_taken" />
+                android:src="@drawable/image_reminder_not_taken"
+                android:visibility="gone" />
         </RelativeLayout>
 
     </LinearLayout>

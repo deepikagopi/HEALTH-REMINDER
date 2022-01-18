@@ -7,22 +7,24 @@
         android:id="@+id/tasksLL"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/colorDarkGreen"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/filteringLabel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/sixteen_dp"
             android:layout_marginLeft="@dimen/list_item_padding"
-            android:layout_marginRight="@dimen/list_item_padding"
             android:layout_marginTop="@dimen/sixteen_dp"
+            android:layout_marginRight="@dimen/list_item_padding"
+            android:layout_marginBottom="@dimen/sixteen_dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_history_list"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="@color/white" />
     </LinearLayout>
 
 
@@ -49,7 +51,7 @@
             android:contentDescription="@null"
             android:src="@drawable/icon_my_health" />
 
-        <com.gautam.medicinetime.views.RobotoLightTextView
+        <com.example.healthreminder.views.RobotoLightTextView
             android:id="@+id/noMedText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

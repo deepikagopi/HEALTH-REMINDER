@@ -13,7 +13,7 @@
         android:fitsSystemWindows="true"
         android:theme="@style/AppTheme.AppBarOverlay"
         app:expanded="false"
-        app:layout_behavior="com.gautam.medicinetime.utils.ScrollingCalendarBehavior">
+        app:layout_behavior="com.example.healthreminder.utils.ScrollingCalendarBehavior">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:id="@+id/collapsingToolbarLayout"
@@ -38,11 +38,12 @@
                     android:id="@+id/compactcalendar_view"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@color/colorGreen"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
-                    app:compactCalendarBackgroundColor="?attr/colorPrimary"
-                    app:compactCalendarCurrentDayBackgroundColor="#FFC107"
-                    app:compactCalendarCurrentSelectedDayBackgroundColor="#BBDEFB"
+                    app:compactCalendarBackgroundColor="@color/colorGreen"
+                    app:compactCalendarCurrentDayBackgroundColor="@color/new_black"
+                    app:compactCalendarCurrentSelectedDayBackgroundColor="#EAB1B1"
                     app:compactCalendarTextColor="#fff"
                     app:compactCalendarTextSize="12sp" />
             </LinearLayout>
@@ -95,6 +96,7 @@
         android:id="@+id/contentFrame"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/white"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -102,6 +104,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/sixteen_dp"
+        app:backgroundTint="@color/colorDarkGreen"
         app:fabSize="normal"
         app:layout_anchor="@id/contentFrame"
         app:layout_anchorGravity="bottom|right|end"
